@@ -1093,7 +1093,7 @@ body {
 }
 
 .owl-carousel.home-slider .owl-dots {
-    display: none;
+    display: block ruby;
     position: absolute;
     bottom: 90px;
     width: 100%;
