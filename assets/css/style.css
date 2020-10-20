@@ -1235,6 +1235,16 @@ body {
     margin-top: 70px;
 }
 
+.donate-icon {
+    background: url('/assets/images/donate1.svg');
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 69px;
+    display: grid;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
 
 /* ===========================--pre loader--====================== */
 
