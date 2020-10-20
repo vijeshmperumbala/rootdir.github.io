@@ -72,7 +72,7 @@ $(document).ready(function() {
 // read more
 $(document).ready(function() {
     function AddReadMore() {
-        var carLmt = 200;
+        var carLmt = 190;
         var readMoreTxt = " .... Read More";
         var readLessTxt = " Read Less";
 
