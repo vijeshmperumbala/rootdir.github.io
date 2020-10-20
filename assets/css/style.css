@@ -883,6 +883,18 @@ body {
     border-radius: 50%;
 }
 
+#topbar .social-links a .telegram {
+    color: #0088cc;
+    background: white;
+}
+
+#topbar .social-links a .telegram:hover {
+    color: white;
+    background: #0088cc;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
 #topbar .social-links a .whatsapp:hover {
     color: #4ac959;
     background: white;
@@ -1207,6 +1219,20 @@ body {
 .addReadMoreWrapTxt.showmorecontent .SecSec,
 .addReadMoreWrapTxt.showmorecontent .readLess {
     display: block;
+}
+
+.pt-md-7 {
+    padding-top: 20px;
+}
+
+@media (min-width:768px) {
+    .pt-md-7 {
+        padding-top: 70px;
+    }
+}
+
+.mt-md-7 {
+    margin-top: 70px;
 }
 
 
