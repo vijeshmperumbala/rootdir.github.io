@@ -72,6 +72,7 @@ textarea {
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 p {
@@ -190,7 +191,7 @@ body {
 
 @media screen and (max-width: 575px) {
     .container {
-        padding: 10px 15px;
+        padding: 10px 0px;
     }
 }
 
