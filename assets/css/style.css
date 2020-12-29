@@ -1302,6 +1302,12 @@ body {
     border-radius: 10px;
 }
 
+.celebrity-box {
+    width: 30%;
+    height: 10%;
+    border-bottom: 1px solid #007bff;
+}
+
 
 /* ===========================--pre loader--====================== */
 
