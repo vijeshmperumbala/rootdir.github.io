@@ -6,11 +6,10 @@ $(document).ready(function() {
     } else {
         // $('#menu-jk').scrollToFixed();
     }
+});
 
-
-
-})
-
+// Mouse Disable 
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 $(document).ready(function() {
 
