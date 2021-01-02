@@ -109,7 +109,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     color: #6A6A6A;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .session-title {
