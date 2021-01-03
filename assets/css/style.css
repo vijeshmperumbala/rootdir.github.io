@@ -10,8 +10,6 @@
     padding: 0px;
     left: 0;
     right: 0;
-    /* top: 0;
-    bottom: 0; */
     list-style: none;
     scroll-behavior: smooth;
 }
@@ -62,7 +60,6 @@ textarea {
 html,
 body {
     height: 100%;
-    /* overflow-x: hidden; */
 }
 
 p {
@@ -109,7 +106,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     color: #6A6A6A;
-    overflow-x: hidden;
 }
 
 .session-title {
@@ -123,14 +119,6 @@ body {
         padding: 5px;
     }
 }
-
-
-/* 
-@media screen and (min-width: 767px) {
-    .body {
-        overflow-x: hidden;
-    }
-} */
 
 .session-title h2 {
     width: 100%;
@@ -308,7 +296,6 @@ body {
     height: 14px;
     margin: 0px 0px 10px 10px;
     filter: Alpha(Opacity=50);
-    /*IE7 fix*/
     opacity: 0.8;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -325,7 +312,6 @@ body {
 .slider .owl-controls.clickable .owl-page:hover span {
     background-color: #fff;
     filter: Alpha(Opacity=100);
-    /*IE7 fix*/
     opacity: 1;
 }
 
@@ -378,7 +364,6 @@ body {
     padding: 25px 25px;
     background-color: #FFF;
     box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
-    /* border-radius: 15px; */
     border-radius: 50px 0px 50px 0px;
     text-align: center;
     margin-bottom: 30px;
@@ -609,10 +594,7 @@ body {
 }
 
 .footer .link-list li {
-    /* padding: 10px; */
-    /* border-bottom: 1px solid #6C6C6C; */
     font-size: 1rem;
-    /* text-indent: 10px; */
     color: #056597;
 }
 
@@ -957,6 +939,12 @@ body {
     z-index: 9000;
     transition: all ease-in-out .1s;
     scroll-behavior: smooth;
+}
+
+@media screen and (min-width:780px) {
+    .sticky-top {
+        position: fixed;
+    }
 }
 
 
