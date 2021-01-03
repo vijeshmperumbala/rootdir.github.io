@@ -109,7 +109,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     color: #6A6A6A;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .session-title {
@@ -123,6 +123,14 @@ body {
         padding: 5px;
     }
 }
+
+
+/* 
+@media screen and (min-width: 767px) {
+    .body {
+        overflow-x: hidden;
+    }
+} */
 
 .session-title h2 {
     width: 100%;
@@ -938,6 +946,7 @@ body {
     z-index: 1030;
     transition: all ease-in-out .1s;
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 .sticky-top {

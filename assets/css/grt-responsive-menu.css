@@ -205,8 +205,8 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 
 @media (max-width:767px) {
     .menu-container {
-        padding-left: 15px;
-        padding-right: 35px;
+        padding-left: 10px;
+        padding-right: 45px;
     }
     .grt-mobile-button {
         display: inline-block;
