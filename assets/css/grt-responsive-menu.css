@@ -50,6 +50,23 @@ a.grt-logo {
     display: inline-block;
 }
 
+.grt-menu-logo {
+    width: 100%;
+}
+
+.grt-menu-right {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .grt-menu-right {
+        width: 0%;
+    }
+    a.grt-logo {
+        width: 78%;
+    }
+}
+
 a.grt-logo img {
     margin-top: 15px;
     max-height: 80px;
@@ -72,6 +89,7 @@ a.grt-logo img {
 ul.grt-menu {
     display: block;
     float: right;
+    width: 100%;
     margin: 0 -10px 0 0;
     padding: 0;
     list-style-type: none;
